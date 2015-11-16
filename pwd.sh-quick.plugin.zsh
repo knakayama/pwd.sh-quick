@@ -19,6 +19,9 @@
   zle -R -c
 }
 
+autoload -Uz -- -pwd-sh-quick
+zle -N -- -pwd-sh-quick
+
 # Local Variables:
 # mode: Shell-Script
 # sh-indentation: 2
